@@ -5,7 +5,7 @@ use App\Http\Controllers\DivisionMemberController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('Welcome');
+    return view('Home');
 });
 
 Route::get('/about', function () {
